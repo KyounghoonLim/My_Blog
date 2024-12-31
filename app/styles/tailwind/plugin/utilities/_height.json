@@ -1,0 +1,5 @@
+{
+  ".h-dscreen": {
+    "height": "calc(var(--vh, 1vh) * 100)"
+  }
+}

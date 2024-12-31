@@ -1,0 +1,31 @@
+{
+  ".APP-CONTAINER": {
+    "width": "100vw",
+    "height": "auto",
+    "position": "relative",
+    "overflow": "auto",
+    "@apply h-dscreen": true,
+    "@apply flex-col-start": true,
+    "@apply no-overscroll": true
+  },
+  ".PAGE-CONTAINER": {
+    "width": "100vw",
+    "height": "auto",
+    "position": "relative",
+    "@apply flex-col-start": true
+  },
+  ".CONTENT-CONTAINER": {
+    "width": "100%",
+    "height": "100%",
+    "margin": "0 auto",
+    "padding": "0px 16px",
+    "position": "relative",
+    "@apply flex-col-center": true
+  },
+  ".ISLAND-CONTAINER": {
+    "width": "100%",
+    "padding": "16px",
+    "borderRadius": "8px",
+    "backgroundColor": "white"
+  }
+}

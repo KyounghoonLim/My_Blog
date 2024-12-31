@@ -1,0 +1,46 @@
+{
+  ".typograph-10": {
+    "fontSize": "10px",
+    "lineHeight": "12.1px"
+  },
+  ".typograph-12": {
+    "fontSize": "12px",
+    "lineHeight": "14.52px"
+  },
+  ".typograph-13": {
+    "fontSize": "13px",
+    "lineHeight": "15.73px"
+  },
+  ".typograph-14": {
+    "fontSize": "14px",
+    "lineHeight": "16.94px"
+  },
+  ".typograph-16": {
+    "fontSize": "16px",
+    "lineHeight": "19.36px"
+  },
+  ".typograph-18": {
+    "fontSize": "18px",
+    "lineHeight": "21.78px"
+  },
+  ".typograph-20": {
+    "fontSize": "20px",
+    "lineHeight": "24.2px"
+  },
+  ".typograph-24": {
+    "fontSize": "24px",
+    "lineHeight": "29.05px"
+  },
+  ".typograph-28": {
+    "fontSize": "28px",
+    "lineHeight": "33.89px"
+  },
+  ".typograph-32": {
+    "fontSize": "32px",
+    "lineHeight": "38.73px"
+  },
+  ".typograph-64": {
+    "fontSize": "64px",
+    "lineHeight": "77.45px"
+  }
+}
