@@ -5,8 +5,7 @@
     "position": "relative",
     "overflow": "auto",
     "@apply h-dscreen": true,
-    "@apply flex-col-start": true,
-    "@apply no-overscroll": true
+    "@apply flex-col-start": true
   },
   ".PAGE-CONTAINER": {
     "width": "100vw",
@@ -20,6 +19,7 @@
     "margin": "0 auto",
     "padding": "0px 16px",
     "position": "relative",
+    "flexShrink": 0,
     "@apply flex-col-center": true
   },
   ".ISLAND-CONTAINER": {

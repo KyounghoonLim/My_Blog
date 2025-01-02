@@ -41,5 +41,8 @@
     "100%": {
       "transform": "translateX(100%)"
     }
+  },
+  "typed-cursor": {
+    "50%": { "opacity": 0 }
   }
 }

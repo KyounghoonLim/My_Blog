@@ -23,7 +23,10 @@
       "components/*": ["./components/*"],
       "hooks/*": ["./hooks/*"],
       "utils/*": ["./utils/*"],
-      "styles/*": ["./styles/*"]
+      "styles/*": ["./styles/*"],
+      "metadata": ["./metadata"],
+      "images/*": ["./public/images/*"],
+      "icons/*": ["./public/icons/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

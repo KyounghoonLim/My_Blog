@@ -1,19 +1,18 @@
-import type { Metadata } from "next";
-import "styles/global.css";
+import 'styles/global.css'
+import { homeMetadata } from 'metadata'
+import { ScreenController } from '../controller/ScreenController'
 
-export const metadata: Metadata = {
-  title: "말랑한 블로그",
-  description: "프론트엔드 개발자 임경훈의 블로그입니다.",
-};
+export const metadata = homeMetadata
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="ko">
+      <ScreenController />
       <body className="APP-CONTAINER">{children}</body>
     </html>
-  );
+  )
 }
