@@ -21,11 +21,5 @@
     "position": "relative",
     "flexShrink": 0,
     "@apply flex-col-center": true
-  },
-  ".ISLAND-CONTAINER": {
-    "width": "100%",
-    "padding": "16px",
-    "borderRadius": "8px",
-    "backgroundColor": "white"
   }
 }

@@ -1,6 +1,7 @@
 import 'styles/global.css'
 import { homeMetadata } from 'metadata'
-import { ScreenController } from '../controller/ScreenController'
+import { ScreenController } from 'controllers/ScreenController'
+import { NotionController } from 'controllers/NotionController'
 
 export const metadata = homeMetadata
 
@@ -12,7 +13,9 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <ScreenController />
-      <body className="APP-CONTAINER">{children}</body>
+      <NotionController>
+        <body className="APP-CONTAINER">{children}</body>
+      </NotionController>
     </html>
   )
 }

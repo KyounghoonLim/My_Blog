@@ -7,5 +7,5 @@ interface IslandProps {
 }
 
 export function Island({ children, className }: IslandProps) {
-  return <article className={clsx('ISLAND-CONTAINER', className)}>{children}</article>
+  return <article className={clsx('island', className)}>{children}</article>
 }

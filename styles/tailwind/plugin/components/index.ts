@@ -18,6 +18,7 @@ import radio from './_radio.json'
 import label from './_label.json'
 import paginator from './_paginator.json'
 import dropdown from './_dropdown.json'
+import island from './_island.json'
 
 const components = {
   ...container,
@@ -40,6 +41,7 @@ const components = {
   ...label,
   ...paginator,
   ...dropdown,
+  ...island,
 }
 
 export default components
