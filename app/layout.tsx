@@ -11,7 +11,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="ko">
+    <html lang="en">
       <ScreenController />
       <NotionController>
         <body className="APP-CONTAINER">{children}</body>
